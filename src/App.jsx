@@ -25,7 +25,23 @@ function App() {
                   Spin Button 
                 </MotionButton>
 
-                
+                {/* Fade + Slide */}
+                <MotionButton
+                    Variant="contained"
+                    whileHover={{ opacity: 0.8, x: 10 }}
+                >
+
+                  Slide & Fade    
+                </MotionButton>
+
+                {/* Grow on Hover */}
+                <MotionButton
+                    variant="outlined"
+                    whileHover={{ scale: 1.1 }}
+                >
+
+                  Grow on Hover
+                </MotionButton>
             </Stack>
 
         </div>
