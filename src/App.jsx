@@ -11,11 +11,21 @@ function App() {
                 {/* Bounce Effect */}
                 <MotionButton 
                     variant="contained"
-                    whileTap={{ scale:0.9}}
+                    whileTap={{ scale:0.9 }}
                     whileHover={{ y: -4 }}
                 >
                   Bounce Button
                 </MotionButton>
+
+                {/* Rotate on Click */}
+                <MotionButton
+                    variant="outlined"
+                    whileTap={{ rotate: 360}}
+                >
+                  Spin Button 
+                </MotionButton>
+
+                
             </Stack>
 
         </div>
